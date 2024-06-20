@@ -1,0 +1,45 @@
+<!--処理内容：アカウント新規作成画面-->
+<!--作成日　：2024/06/14-->
+<!--作成者　：吉田-->
+<!--更新日　：2024/06/14-->
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>ユーザー登録フォーム</title>
+</head>
+<body>
+    <form action="save_account.php" method="post">
+      <div class="create_form_top">
+        <h2>アカウント新規作成</h2>
+    </div>
+    <!--新規アカウント作成時の情報入力箇所表示-->
+    <div style="border: #2e9913 double 5px; border-radius:15px; font-size: 100%; padding: 15px; box-shadow: 0 5px 7px 0 #c0c0c0; margin-left: 30%; margin-right: 30%;">
+        <div class="create_form_btm">
+            <!--社員名入力欄-->
+            <label><font size = "2">社員名</font></label><br>
+            <input type = "text"  name="user_name" placeholder="氏名"><br>
+            <br>
+            <!--メールアドレス入力欄-->
+            <label><font size = "2">メールアドレス</font></label><br>
+            <input type="mail" name="user_mail"placeholder="例）example@e-ath.co.jp"><br>
+            <br>
+            <!--新規パスワード入力欄-->
+            <label><font size = "2">パスワード作成</font></label><br>
+            <input type="password" name="password"placeholder="仮）半角英数字8文字以内">
+        </div>
+    </div>
+    <br>
+          <!--作成するボタン設置-->
+	 <input type="submit"  class="btn_06" value="登録する">
+
+    <!--戻るボタン設置-->
+    <div class = "back_btn">
+        <p><a href="file:///C:/Users/eath026/Desktop/%E7%AE%A1%E7%90%86%E5%8F%B0%E5%B8%B3%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/%E3%83%9B%E3%83%BC%E3%83%A0/home_page.html"target = "_blank">戻る
+        </a></p>
+      </div>
+      
+</form>
+</body>
+</html>

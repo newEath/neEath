@@ -1,0 +1,77 @@
+/*----文字設定----*/
+h2
+{
+    color: black;
+}
+
+/*----背景設定----*/
+body
+{
+    background-color: rgb(245, 246, 232);
+	background-image: url(pc_human.png);
+	background-repeat: no-repeat;
+	background-position: 20% 300%;
+	background-size: 20%;
+}
+
+/*「ログイン」の表示*/
+.create_form_top
+{
+	margin-left: 7%;
+}
+
+/*ログインフォームボタン設定*/
+.create_form_btn
+{
+    text-align: center;
+}
+
+/*----ログインボタン設定----*/
+a.btn_06 
+{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 65px;
+	height: 15px;
+	margin: auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	border-radius: 100vh;
+	border-bottom: 7px solid #0b9e06;
+	background: #54d927;
+	color: #fff;
+}
+a.btn_06:hover 
+{
+	margin-top: 6px;
+	border-bottom: 1px solid #0686b2;
+	color: #fff;
+}
+
+/*入力欄を下線のみにする*/
+input 
+{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+/*「パスワードを忘れた場合」欄の設定*/
+.forget_pass
+{
+	text-align: center;
+}
+
+/*「新規作成」欄の設定*/
+.new_create
+{
+	text-align: center;
+}
+
+
+/*戻るボタン設定*/
+.back_btn
+{
+  margin-left: 10%;
+}
